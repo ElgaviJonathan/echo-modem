@@ -1,0 +1,1957 @@
+01:42:50 **** Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/echo_transmitter_test.o   
+Finished building target: echo_transmitter_test.exe
+ 
+01:43:23 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+01:59:02 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/SystemCore.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SystemCore.d" -MT"src/SystemCore.o" -o "src/SystemCore.o" "../src/SystemCore.c"
+In file included from ../src/echo_transmitter_types.h:16:0,
+                 from ../src/echo_transmitter_internal_types.h:16,
+                 from ../src/SystemCore.h:16,
+                 from ../src/SystemCore.c:13:
+../src/rtwtypes.h:42:22: fatal error: tmwtypes.h: No such file or directory
+ #include "tmwtypes.h"
+                      ^
+compilation terminated.
+make: *** [src/SystemCore.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:01:04 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/SystemCore.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SystemCore.d" -MT"src/SystemCore.o" -o "src/SystemCore.o" "../src/SystemCore.c"
+Finished building: ../src/SystemCore.c
+ 
+Building file: ../src/dec2bin.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dec2bin.d" -MT"src/dec2bin.o" -o "src/dec2bin.o" "../src/dec2bin.c"
+Finished building: ../src/dec2bin.c
+ 
+Building file: ../src/echo_transmitter.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter.d" -MT"src/echo_transmitter.o" -o "src/echo_transmitter.o" "../src/echo_transmitter.c"
+Finished building: ../src/echo_transmitter.c
+ 
+Building file: ../src/echo_transmitter_data.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_data.d" -MT"src/echo_transmitter_data.o" -o "src/echo_transmitter_data.o" "../src/echo_transmitter_data.c"
+Finished building: ../src/echo_transmitter_data.c
+ 
+Building file: ../src/echo_transmitter_emxAPI.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_emxAPI.d" -MT"src/echo_transmitter_emxAPI.o" -o "src/echo_transmitter_emxAPI.o" "../src/echo_transmitter_emxAPI.c"
+Finished building: ../src/echo_transmitter_emxAPI.c
+ 
+Building file: ../src/echo_transmitter_emxutil.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_emxutil.d" -MT"src/echo_transmitter_emxutil.o" -o "src/echo_transmitter_emxutil.o" "../src/echo_transmitter_emxutil.c"
+Finished building: ../src/echo_transmitter_emxutil.c
+ 
+Building file: ../src/echo_transmitter_initialize.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_initialize.d" -MT"src/echo_transmitter_initialize.o" -o "src/echo_transmitter_initialize.o" "../src/echo_transmitter_initialize.c"
+Finished building: ../src/echo_transmitter_initialize.c
+ 
+Building file: ../src/echo_transmitter_terminate.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_terminate.d" -MT"src/echo_transmitter_terminate.o" -o "src/echo_transmitter_terminate.o" "../src/echo_transmitter_terminate.c"
+Finished building: ../src/echo_transmitter_terminate.c
+ 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+../src/echo_transmitter_test.cpp: In function 'void main_echo_transmitter()':
+../src/echo_transmitter_test.cpp:53:25: error: assigning to an array from an initializer list
+   0, 0, 0, 1, 1, 1, 1, 1};
+                         ^
+make: *** [src/echo_transmitter_test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:03:33 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building file: ../src/fsk_8_level_64_tone_modulator.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fsk_8_level_64_tone_modulator.d" -MT"src/fsk_8_level_64_tone_modulator.o" -o "src/fsk_8_level_64_tone_modulator.o" "../src/fsk_8_level_64_tone_modulator.c"
+Finished building: ../src/fsk_8_level_64_tone_modulator.c
+ 
+Building file: ../src/multi_tone_fsk_modulator.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multi_tone_fsk_modulator.d" -MT"src/multi_tone_fsk_modulator.o" -o "src/multi_tone_fsk_modulator.o" "../src/multi_tone_fsk_modulator.c"
+Finished building: ../src/multi_tone_fsk_modulator.c
+ 
+Building file: ../src/rtGetInf.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rtGetInf.d" -MT"src/rtGetInf.o" -o "src/rtGetInf.o" "../src/rtGetInf.c"
+Finished building: ../src/rtGetInf.c
+ 
+Building file: ../src/rtGetNaN.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rtGetNaN.d" -MT"src/rtGetNaN.o" -o "src/rtGetNaN.o" "../src/rtGetNaN.c"
+Finished building: ../src/rtGetNaN.c
+ 
+Building file: ../src/rt_nonfinite.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rt_nonfinite.d" -MT"src/rt_nonfinite.o" -o "src/rt_nonfinite.o" "../src/rt_nonfinite.c"
+Finished building: ../src/rt_nonfinite.c
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+02:04:11 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+02:05:21 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+02:06:03 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+02:19:54 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+../src/echo_transmitter_test.cpp: In function 'void main_echo_transmitter()':
+../src/echo_transmitter_test.cpp:58:30: error: no match for 'operator<<' (operand types are 'std::basic_ostream<char>' and 'emxArray_real_T')
+   cout << "output_signal = " << *output_signal << endl;
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:108:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:108:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:117:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:117:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:127:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:127:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::ios_base& (*)(std::ios_base&)'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:166:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:166:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:170:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:170:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long unsigned int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:174:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:174:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'bool'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:91:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:91:5: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'short int'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:181:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:181:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'short unsigned int'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:105:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:105:5: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'int'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:192:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:192:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'unsigned int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:201:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:201:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long long int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:205:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:205:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long long unsigned int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:220:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:220:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'double'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:224:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:224:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'float'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:232:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:232:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long double'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:245:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:245:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'const void*'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:119:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:119:5: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5325:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5325:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:34: note:   'emxArray_real_T' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   cout << "output_signal = " << *output_signal << endl;
+                                  ^~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:46:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\system_error:209:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\system_error:209:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'const std::error_code&'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:497:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:34: note:   deduced conflicting types for parameter '_CharT' ('char' and 'emxArray_real_T')
+   cout << "output_signal = " << *output_signal << endl;
+                                  ^~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:502:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'char'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:508:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'char'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:514:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'signed char'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:519:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'unsigned char'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:539:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:34: note:   mismatched types 'const _CharT*' and 'emxArray_real_T'
+   cout << "output_signal = " << *output_signal << endl;
+                                  ^~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'const char*'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:556:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'const char*'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:569:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'const signed char*'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:574:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'const unsigned char*'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:628:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = emxArray_real_T] <near match>
+     operator<<(basic_ostream<_CharT, _Traits>&& __os, const _Tp& __x)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:628:5: note:   conversion of argument 1 would be ill-formed:
+../src/echo_transmitter_test.cpp:58:8: error: cannot bind 'std::basic_ostream<char>' lvalue to 'std::basic_ostream<char>&&'
+   cout << "output_signal = " << *output_signal << endl;
+   ~~~~~^~~~~~~~~~~~~~~~~~~~~
+make: *** [src/echo_transmitter_test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:21:36 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+02:22:12 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+../src/echo_transmitter_test.cpp: In function 'void main_echo_transmitter()':
+../src/echo_transmitter_test.cpp:58:30: error: no match for 'operator<<' (operand types are 'std::basic_ostream<char>' and 'emxArray_real_T')
+   cout << "output_signal = " << *output_signal << endl;
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:108:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:108:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:117:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:117:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:127:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:127:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::ios_base& (*)(std::ios_base&)'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:166:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:166:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:170:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:170:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long unsigned int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:174:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:174:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'bool'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:91:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:91:5: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'short int'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:181:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:181:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'short unsigned int'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:105:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:105:5: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'int'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:192:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:192:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'unsigned int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:201:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:201:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long long int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:205:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:205:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long long unsigned int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:220:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:220:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'double'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:224:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:224:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'float'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:232:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:232:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long double'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:245:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:245:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'const void*'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:119:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:119:5: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5325:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5325:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:34: note:   'emxArray_real_T' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+   cout << "output_signal = " << *output_signal << endl;
+                                  ^~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:46:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\system_error:209:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\system_error:209:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'const std::error_code&'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:497:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:34: note:   deduced conflicting types for parameter '_CharT' ('char' and 'emxArray_real_T')
+   cout << "output_signal = " << *output_signal << endl;
+                                  ^~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:502:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'char'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:508:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'char'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:514:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'signed char'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:519:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'unsigned char'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:539:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:34: note:   mismatched types 'const _CharT*' and 'emxArray_real_T'
+   cout << "output_signal = " << *output_signal << endl;
+                                  ^~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'const char*'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:556:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'const char*'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:569:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'const signed char*'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:574:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:58:33: note:   cannot convert '* output_signal' (type 'emxArray_real_T') to type 'const unsigned char*'
+   cout << "output_signal = " << *output_signal << endl;
+                                 ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:628:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = emxArray_real_T] <near match>
+     operator<<(basic_ostream<_CharT, _Traits>&& __os, const _Tp& __x)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:628:5: note:   conversion of argument 1 would be ill-formed:
+../src/echo_transmitter_test.cpp:58:8: error: cannot bind 'std::basic_ostream<char>' lvalue to 'std::basic_ostream<char>&&'
+   cout << "output_signal = " << *output_signal << endl;
+   ~~~~~^~~~~~~~~~~~~~~~~~~~~
+make: *** [src/echo_transmitter_test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:22:41 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+../src/echo_transmitter_test.cpp: In function 'void main_echo_transmitter()':
+../src/echo_transmitter_test.cpp:58:48: error: expected primary-expression before '<<' token
+   cout << "output_signal = " << output_signal* << endl;
+                                                ^~
+make: *** [src/echo_transmitter_test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:22:51 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+02:23:16 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+../src/echo_transmitter_test.cpp: In function 'void main_echo_transmitter()':
+../src/echo_transmitter_test.cpp:58:52: error: invalid cast from type 'emxArray_real_T' to type 'char'
+   cout << "output_signal = " << char(*output_signal) << endl;
+                                                    ^
+make: *** [src/echo_transmitter_test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:23:26 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+../src/echo_transmitter_test.cpp: In function 'void main_echo_transmitter()':
+../src/echo_transmitter_test.cpp:58:51: error: 'str' was not declared in this scope
+   cout << "output_signal = " << str(*output_signal) << endl;
+                                                   ^
+make: *** [src/echo_transmitter_test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:23:48 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+02:26:53 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+../src/echo_transmitter_test.cpp: In function 'void main_echo_transmitter()':
+../src/echo_transmitter_test.cpp:59:19: warning: left operand of comma operator has no effect [-Wunused-value]
+   for (int i =0; i<10, i++){
+                  ~^~~
+../src/echo_transmitter_test.cpp:59:27: error: expected ';' before ')' token
+   for (int i =0; i<10, i++){
+                           ^
+../src/echo_transmitter_test.cpp:60:9: error: no match for 'operator<<' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and 'emxArray_real_T')
+    cout << *(output_signal+i) << endl;
+    ~~~~~^~~~~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:108:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:108:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:117:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:117:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:127:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:127:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::ios_base& (*)(std::ios_base&)'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:166:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:166:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:170:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:170:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long unsigned int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:174:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:174:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'bool'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:91:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:91:5: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'short int'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:181:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:181:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'short unsigned int'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:105:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:105:5: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'int'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:192:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:192:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'unsigned int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:201:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:201:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long long int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:205:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:205:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long long unsigned int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:220:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:220:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'double'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:224:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:224:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'float'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:232:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:232:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long double'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:245:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:245:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'const void*'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:119:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:119:5: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5325:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5325:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:29: note:   'emxArray_real_T' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+    cout << *(output_signal+i) << endl;
+                             ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:46:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\system_error:209:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\system_error:209:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'const std::error_code&'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:497:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:29: note:   deduced conflicting types for parameter '_CharT' ('char' and 'emxArray_real_T')
+    cout << *(output_signal+i) << endl;
+                             ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:502:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'char'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:508:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'char'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:514:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'signed char'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:519:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'unsigned char'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:539:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:29: note:   mismatched types 'const _CharT*' and 'emxArray_real_T'
+    cout << *(output_signal+i) << endl;
+                             ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'const char*'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:556:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'const char*'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:569:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'const signed char*'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:574:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'const unsigned char*'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:628:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = emxArray_real_T] <near match>
+     operator<<(basic_ostream<_CharT, _Traits>&& __os, const _Tp& __x)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:628:5: note:   conversion of argument 1 would be ill-formed:
+../src/echo_transmitter_test.cpp:60:29: error: cannot bind 'std::ostream {aka std::basic_ostream<char>}' lvalue to 'std::basic_ostream<char>&&'
+    cout << *(output_signal+i) << endl;
+                             ^
+make: *** [src/echo_transmitter_test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:27:14 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+../src/echo_transmitter_test.cpp: In function 'void main_echo_transmitter()':
+../src/echo_transmitter_test.cpp:60:9: error: no match for 'operator<<' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and 'emxArray_real_T')
+    cout << *(output_signal+i) << endl;
+    ~~~~~^~~~~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:108:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:108:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:117:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:117:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:127:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:127:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::ios_base& (*)(std::ios_base&)'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:166:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:166:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:170:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:170:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long unsigned int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:174:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:174:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'bool'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:91:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:91:5: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'short int'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:181:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:181:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'short unsigned int'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:105:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:105:5: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'int'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:192:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:192:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'unsigned int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:201:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:201:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long long int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:205:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:205:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long long unsigned int'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:220:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:220:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'double'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:224:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:224:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'float'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:232:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:232:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'long double'
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:245:7: note: candidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+       ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:245:7: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'const void*'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:119:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:119:5: note:   no known conversion for argument 1 from 'emxArray_real_T' to 'std::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}'
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string:52:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5325:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.h:5325:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:29: note:   'emxArray_real_T' is not derived from 'const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>'
+    cout << *(output_signal+i) << endl;
+                             ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:46:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\system_error:209:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\system_error:209:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'const std::error_code&'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:497:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:497:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:29: note:   deduced conflicting types for parameter '_CharT' ('char' and 'emxArray_real_T')
+    cout << *(output_signal+i) << endl;
+                             ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:502:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:502:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'char'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:508:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:508:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'char'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:514:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:514:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'signed char'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:519:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:519:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'unsigned char'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:539:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:539:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:29: note:   mismatched types 'const _CharT*' and 'emxArray_real_T'
+    cout << *(output_signal+i) << endl;
+                             ^
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:638:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:321:5: note: candidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'const char*'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:556:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:556:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'const char*'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:569:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:569:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'const signed char*'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:574:5: note: candidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:574:5: note:   template argument deduction/substitution failed:
+../src/echo_transmitter_test.cpp:60:12: note:   cannot convert '*(output_signal + ((sizetype)(((unsigned int)i) * 20u)))' (type 'emxArray_real_T') to type 'const unsigned char*'
+    cout << *(output_signal+i) << endl;
+            ^~~~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39:0,
+                 from ../src/echo_transmitter_test.cpp:9:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:628:5: note: candidate: std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&&, const _Tp&) [with _CharT = char; _Traits = std::char_traits<char>; _Tp = emxArray_real_T] <near match>
+     operator<<(basic_ostream<_CharT, _Traits>&& __os, const _Tp& __x)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:628:5: note:   conversion of argument 1 would be ill-formed:
+../src/echo_transmitter_test.cpp:60:29: error: cannot bind 'std::ostream {aka std::basic_ostream<char>}' lvalue to 'std::basic_ostream<char>&&'
+    cout << *(output_signal+i) << endl;
+                             ^
+make: *** [src/echo_transmitter_test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+02:34:34 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+02:35:58 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+02:36:20 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+02:38:49 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+02:39:19 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+20:24:41 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+20:27:24 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+20:27:27 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+20:28:00 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+20:47:52 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+20:48:11 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+20:49:07 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+20:49:10 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+20:54:11 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+20:59:33 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+21:01:51 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+21:02:49 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+21:07:00 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+21:07:29 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+21:11:34 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+21:12:25 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+21:13:10 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+21:14:10 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+21:14:47 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+04:08:45 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+14:17:53 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/SystemCore.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SystemCore.d" -MT"src/SystemCore.o" -o "src/SystemCore.o" "../src/SystemCore.c"
+In file included from ../src/echo_transmitter_types.h:16:0,
+                 from ../src/echo_transmitter_internal_types.h:16,
+                 from ../src/SystemCore.h:16,
+                 from ../src/SystemCore.c:13:
+../src/rtwtypes.h:42:22: fatal error: tmwtypes.h: No such file or directory
+ #include "tmwtypes.h"
+                      ^
+compilation terminated.
+make: *** [src/SystemCore.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:18:55 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/SystemCore.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SystemCore.d" -MT"src/SystemCore.o" -o "src/SystemCore.o" "../src/SystemCore.c"
+Finished building: ../src/SystemCore.c
+ 
+Building file: ../src/dec2bin.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dec2bin.d" -MT"src/dec2bin.o" -o "src/dec2bin.o" "../src/dec2bin.c"
+Finished building: ../src/dec2bin.c
+ 
+Building file: ../src/echo_transmitter.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter.d" -MT"src/echo_transmitter.o" -o "src/echo_transmitter.o" "../src/echo_transmitter.c"
+Finished building: ../src/echo_transmitter.c
+ 
+Building file: ../src/echo_transmitter_data.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_data.d" -MT"src/echo_transmitter_data.o" -o "src/echo_transmitter_data.o" "../src/echo_transmitter_data.c"
+Finished building: ../src/echo_transmitter_data.c
+ 
+Building file: ../src/echo_transmitter_emxAPI.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_emxAPI.d" -MT"src/echo_transmitter_emxAPI.o" -o "src/echo_transmitter_emxAPI.o" "../src/echo_transmitter_emxAPI.c"
+Finished building: ../src/echo_transmitter_emxAPI.c
+ 
+Building file: ../src/echo_transmitter_emxutil.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_emxutil.d" -MT"src/echo_transmitter_emxutil.o" -o "src/echo_transmitter_emxutil.o" "../src/echo_transmitter_emxutil.c"
+Finished building: ../src/echo_transmitter_emxutil.c
+ 
+Building file: ../src/echo_transmitter_initialize.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_initialize.d" -MT"src/echo_transmitter_initialize.o" -o "src/echo_transmitter_initialize.o" "../src/echo_transmitter_initialize.c"
+Finished building: ../src/echo_transmitter_initialize.c
+ 
+Building file: ../src/echo_transmitter_terminate.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_terminate.d" -MT"src/echo_transmitter_terminate.o" -o "src/echo_transmitter_terminate.o" "../src/echo_transmitter_terminate.c"
+Finished building: ../src/echo_transmitter_terminate.c
+ 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building file: ../src/fsk_8_level_64_tone_modulator.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/fsk_8_level_64_tone_modulator.d" -MT"src/fsk_8_level_64_tone_modulator.o" -o "src/fsk_8_level_64_tone_modulator.o" "../src/fsk_8_level_64_tone_modulator.c"
+Finished building: ../src/fsk_8_level_64_tone_modulator.c
+ 
+Building file: ../src/multi_tone_fsk_modulator.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multi_tone_fsk_modulator.d" -MT"src/multi_tone_fsk_modulator.o" -o "src/multi_tone_fsk_modulator.o" "../src/multi_tone_fsk_modulator.c"
+Finished building: ../src/multi_tone_fsk_modulator.c
+ 
+Building file: ../src/rtGetInf.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rtGetInf.d" -MT"src/rtGetInf.o" -o "src/rtGetInf.o" "../src/rtGetInf.c"
+Finished building: ../src/rtGetInf.c
+ 
+Building file: ../src/rtGetNaN.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rtGetNaN.d" -MT"src/rtGetNaN.o" -o "src/rtGetNaN.o" "../src/rtGetNaN.c"
+Finished building: ../src/rtGetNaN.c
+ 
+Building file: ../src/rt_nonfinite.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rt_nonfinite.d" -MT"src/rt_nonfinite.o" -o "src/rt_nonfinite.o" "../src/rt_nonfinite.c"
+Finished building: ../src/rt_nonfinite.c
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxAPI.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/fsk_8_level_64_tone_modulator.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+14:19:41 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+14:33:07 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+14:50:15 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/SystemCore.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SystemCore.d" -MT"src/SystemCore.o" -o "src/SystemCore.o" "../src/SystemCore.c"
+Finished building: ../src/SystemCore.c
+ 
+Building file: ../src/dec2bin.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dec2bin.d" -MT"src/dec2bin.o" -o "src/dec2bin.o" "../src/dec2bin.c"
+Finished building: ../src/dec2bin.c
+ 
+Building file: ../src/echo_transmitter.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter.d" -MT"src/echo_transmitter.o" -o "src/echo_transmitter.o" "../src/echo_transmitter.c"
+Finished building: ../src/echo_transmitter.c
+ 
+Building file: ../src/echo_transmitter_data.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_data.d" -MT"src/echo_transmitter_data.o" -o "src/echo_transmitter_data.o" "../src/echo_transmitter_data.c"
+Finished building: ../src/echo_transmitter_data.c
+ 
+make: *** No rule to make target `../src/echo_transmitter_emxAPI.c', needed by `src/echo_transmitter_emxAPI.o'.  Stop.
+"make all" terminated with exit code 2. Build might be incomplete.
+14:51:54 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/SystemCore.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SystemCore.d" -MT"src/SystemCore.o" -o "src/SystemCore.o" "../src/SystemCore.c"
+Finished building: ../src/SystemCore.c
+ 
+Building file: ../src/dec2bin.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dec2bin.d" -MT"src/dec2bin.o" -o "src/dec2bin.o" "../src/dec2bin.c"
+Finished building: ../src/dec2bin.c
+ 
+Building file: ../src/echo_transmitter.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter.d" -MT"src/echo_transmitter.o" -o "src/echo_transmitter.o" "../src/echo_transmitter.c"
+Finished building: ../src/echo_transmitter.c
+ 
+Building file: ../src/echo_transmitter_data.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_data.d" -MT"src/echo_transmitter_data.o" -o "src/echo_transmitter_data.o" "../src/echo_transmitter_data.c"
+Finished building: ../src/echo_transmitter_data.c
+ 
+Building file: ../src/echo_transmitter_emxutil.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_emxutil.d" -MT"src/echo_transmitter_emxutil.o" -o "src/echo_transmitter_emxutil.o" "../src/echo_transmitter_emxutil.c"
+Finished building: ../src/echo_transmitter_emxutil.c
+ 
+Building file: ../src/echo_transmitter_initialize.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_initialize.d" -MT"src/echo_transmitter_initialize.o" -o "src/echo_transmitter_initialize.o" "../src/echo_transmitter_initialize.c"
+Finished building: ../src/echo_transmitter_initialize.c
+ 
+Building file: ../src/echo_transmitter_terminate.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_terminate.d" -MT"src/echo_transmitter_terminate.o" -o "src/echo_transmitter_terminate.o" "../src/echo_transmitter_terminate.c"
+Finished building: ../src/echo_transmitter_terminate.c
+ 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+../src/echo_transmitter_test.cpp: In function 'void main_echo_transmitter()':
+../src/echo_transmitter_test.cpp:70:34: error: request for member 'data' in '*(double*)(& data_sig)', which is of non-class type 'double'
+    tx_stream_file << *(data_sig->data+i) << ",";
+                                  ^~~~
+make: *** [src/echo_transmitter_test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:52:45 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building file: ../src/multi_tone_fsk_modulator.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multi_tone_fsk_modulator.d" -MT"src/multi_tone_fsk_modulator.o" -o "src/multi_tone_fsk_modulator.o" "../src/multi_tone_fsk_modulator.c"
+Finished building: ../src/multi_tone_fsk_modulator.c
+ 
+Building file: ../src/rtGetInf.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rtGetInf.d" -MT"src/rtGetInf.o" -o "src/rtGetInf.o" "../src/rtGetInf.c"
+Finished building: ../src/rtGetInf.c
+ 
+Building file: ../src/rtGetNaN.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rtGetNaN.d" -MT"src/rtGetNaN.o" -o "src/rtGetNaN.o" "../src/rtGetNaN.c"
+Finished building: ../src/rtGetNaN.c
+ 
+Building file: ../src/rt_nonfinite.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rt_nonfinite.d" -MT"src/rt_nonfinite.o" -o "src/rt_nonfinite.o" "../src/rt_nonfinite.c"
+Finished building: ../src/rt_nonfinite.c
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file echo_transmitter_test.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+make: *** [echo_transmitter_test.exe] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+14:53:36 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+14:53:47 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+14:55:14 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+14:59:35 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+15:16:51 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/SystemCore.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SystemCore.d" -MT"src/SystemCore.o" -o "src/SystemCore.o" "../src/SystemCore.c"
+Finished building: ../src/SystemCore.c
+ 
+Building file: ../src/dec2bin.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dec2bin.d" -MT"src/dec2bin.o" -o "src/dec2bin.o" "../src/dec2bin.c"
+Finished building: ../src/dec2bin.c
+ 
+Building file: ../src/echo_transmitter.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter.d" -MT"src/echo_transmitter.o" -o "src/echo_transmitter.o" "../src/echo_transmitter.c"
+Finished building: ../src/echo_transmitter.c
+ 
+Building file: ../src/echo_transmitter_data.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_data.d" -MT"src/echo_transmitter_data.o" -o "src/echo_transmitter_data.o" "../src/echo_transmitter_data.c"
+Finished building: ../src/echo_transmitter_data.c
+ 
+Building file: ../src/echo_transmitter_emxutil.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_emxutil.d" -MT"src/echo_transmitter_emxutil.o" -o "src/echo_transmitter_emxutil.o" "../src/echo_transmitter_emxutil.c"
+Finished building: ../src/echo_transmitter_emxutil.c
+ 
+Building file: ../src/echo_transmitter_initialize.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_initialize.d" -MT"src/echo_transmitter_initialize.o" -o "src/echo_transmitter_initialize.o" "../src/echo_transmitter_initialize.c"
+Finished building: ../src/echo_transmitter_initialize.c
+ 
+Building file: ../src/echo_transmitter_terminate.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_terminate.d" -MT"src/echo_transmitter_terminate.o" -o "src/echo_transmitter_terminate.o" "../src/echo_transmitter_terminate.c"
+Finished building: ../src/echo_transmitter_terminate.c
+ 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building file: ../src/multi_tone_fsk_modulator.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multi_tone_fsk_modulator.d" -MT"src/multi_tone_fsk_modulator.o" -o "src/multi_tone_fsk_modulator.o" "../src/multi_tone_fsk_modulator.c"
+Finished building: ../src/multi_tone_fsk_modulator.c
+ 
+Building file: ../src/rtGetInf.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rtGetInf.d" -MT"src/rtGetInf.o" -o "src/rtGetInf.o" "../src/rtGetInf.c"
+Finished building: ../src/rtGetInf.c
+ 
+Building file: ../src/rtGetNaN.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rtGetNaN.d" -MT"src/rtGetNaN.o" -o "src/rtGetNaN.o" "../src/rtGetNaN.c"
+Finished building: ../src/rtGetNaN.c
+ 
+Building file: ../src/rt_nonfinite.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rt_nonfinite.d" -MT"src/rt_nonfinite.o" -o "src/rt_nonfinite.o" "../src/rt_nonfinite.c"
+Finished building: ../src/rt_nonfinite.c
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+15:17:00 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+15:19:52 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+15:22:59 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+15:24:55 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+15:25:00 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+15:25:15 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+15:25:17 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+15:32:01 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/SystemCore.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SystemCore.d" -MT"src/SystemCore.o" -o "src/SystemCore.o" "../src/SystemCore.c"
+Finished building: ../src/SystemCore.c
+ 
+Building file: ../src/dec2bin.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dec2bin.d" -MT"src/dec2bin.o" -o "src/dec2bin.o" "../src/dec2bin.c"
+Finished building: ../src/dec2bin.c
+ 
+Building file: ../src/echo_transmitter.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter.d" -MT"src/echo_transmitter.o" -o "src/echo_transmitter.o" "../src/echo_transmitter.c"
+Finished building: ../src/echo_transmitter.c
+ 
+Building file: ../src/echo_transmitter_data.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_data.d" -MT"src/echo_transmitter_data.o" -o "src/echo_transmitter_data.o" "../src/echo_transmitter_data.c"
+Finished building: ../src/echo_transmitter_data.c
+ 
+Building file: ../src/echo_transmitter_emxutil.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_emxutil.d" -MT"src/echo_transmitter_emxutil.o" -o "src/echo_transmitter_emxutil.o" "../src/echo_transmitter_emxutil.c"
+Finished building: ../src/echo_transmitter_emxutil.c
+ 
+Building file: ../src/echo_transmitter_initialize.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_initialize.d" -MT"src/echo_transmitter_initialize.o" -o "src/echo_transmitter_initialize.o" "../src/echo_transmitter_initialize.c"
+Finished building: ../src/echo_transmitter_initialize.c
+ 
+Building file: ../src/echo_transmitter_terminate.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_terminate.d" -MT"src/echo_transmitter_terminate.o" -o "src/echo_transmitter_terminate.o" "../src/echo_transmitter_terminate.c"
+Finished building: ../src/echo_transmitter_terminate.c
+ 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building file: ../src/multi_tone_fsk_modulator.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multi_tone_fsk_modulator.d" -MT"src/multi_tone_fsk_modulator.o" -o "src/multi_tone_fsk_modulator.o" "../src/multi_tone_fsk_modulator.c"
+Finished building: ../src/multi_tone_fsk_modulator.c
+ 
+Building file: ../src/rtGetInf.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rtGetInf.d" -MT"src/rtGetInf.o" -o "src/rtGetInf.o" "../src/rtGetInf.c"
+Finished building: ../src/rtGetInf.c
+ 
+Building file: ../src/rtGetNaN.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rtGetNaN.d" -MT"src/rtGetNaN.o" -o "src/rtGetNaN.o" "../src/rtGetNaN.c"
+Finished building: ../src/rtGetNaN.c
+ 
+Building file: ../src/rt_nonfinite.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rt_nonfinite.d" -MT"src/rt_nonfinite.o" -o "src/rt_nonfinite.o" "../src/rt_nonfinite.c"
+Finished building: ../src/rt_nonfinite.c
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+15:32:32 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+15:33:28 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+15:44:39 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/SystemCore.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/SystemCore.d" -MT"src/SystemCore.o" -o "src/SystemCore.o" "../src/SystemCore.c"
+Finished building: ../src/SystemCore.c
+ 
+Building file: ../src/dec2bin.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dec2bin.d" -MT"src/dec2bin.o" -o "src/dec2bin.o" "../src/dec2bin.c"
+Finished building: ../src/dec2bin.c
+ 
+Building file: ../src/echo_transmitter.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter.d" -MT"src/echo_transmitter.o" -o "src/echo_transmitter.o" "../src/echo_transmitter.c"
+Finished building: ../src/echo_transmitter.c
+ 
+Building file: ../src/echo_transmitter_data.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_data.d" -MT"src/echo_transmitter_data.o" -o "src/echo_transmitter_data.o" "../src/echo_transmitter_data.c"
+Finished building: ../src/echo_transmitter_data.c
+ 
+Building file: ../src/echo_transmitter_emxutil.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_emxutil.d" -MT"src/echo_transmitter_emxutil.o" -o "src/echo_transmitter_emxutil.o" "../src/echo_transmitter_emxutil.c"
+Finished building: ../src/echo_transmitter_emxutil.c
+ 
+Building file: ../src/echo_transmitter_initialize.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_initialize.d" -MT"src/echo_transmitter_initialize.o" -o "src/echo_transmitter_initialize.o" "../src/echo_transmitter_initialize.c"
+Finished building: ../src/echo_transmitter_initialize.c
+ 
+Building file: ../src/echo_transmitter_terminate.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_terminate.d" -MT"src/echo_transmitter_terminate.o" -o "src/echo_transmitter_terminate.o" "../src/echo_transmitter_terminate.c"
+Finished building: ../src/echo_transmitter_terminate.c
+ 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building file: ../src/multi_tone_fsk_modulator.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/multi_tone_fsk_modulator.d" -MT"src/multi_tone_fsk_modulator.o" -o "src/multi_tone_fsk_modulator.o" "../src/multi_tone_fsk_modulator.c"
+Finished building: ../src/multi_tone_fsk_modulator.c
+ 
+Building file: ../src/rtGetInf.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rtGetInf.d" -MT"src/rtGetInf.o" -o "src/rtGetInf.o" "../src/rtGetInf.c"
+Finished building: ../src/rtGetInf.c
+ 
+Building file: ../src/rtGetNaN.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rtGetNaN.d" -MT"src/rtGetNaN.o" -o "src/rtGetNaN.o" "../src/rtGetNaN.c"
+Finished building: ../src/rtGetNaN.c
+ 
+Building file: ../src/rt_nonfinite.c
+Invoking: Cygwin C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/rt_nonfinite.d" -MT"src/rt_nonfinite.o" -o "src/rt_nonfinite.o" "../src/rt_nonfinite.c"
+Finished building: ../src/rt_nonfinite.c
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+15:44:46 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+15:45:58 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+15:46:01 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+15:49:56 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+../src/echo_transmitter_test.cpp: In function 'void argInit_32x1_real_T(double*)':
+../src/echo_transmitter_test.cpp:39:7: error: expected ';' before 'result'
+       result[idx0] = data_bits_ref[idx0];
+       ^~~~~~
+../src/echo_transmitter_test.cpp:39:41: warning: statement has no effect [-Wunused-value]
+       result[idx0] = data_bits_ref[idx0];
+                                         ^
+../src/echo_transmitter_test.cpp:28:6: warning: unused variable 'data_bits_ref' [-Wunused-variable]
+  int data_bits_ref[32] =
+      ^~~~~~~~~~~~~
+../src/echo_transmitter_test.cpp: At global scope:
+../src/echo_transmitter_test.cpp:45:15: warning: 'double argInit_real_T()' defined but not used [-Wunused-function]
+ static double argInit_real_T(void)
+               ^~~~~~~~~~~~~~
+make: *** [src/echo_transmitter_test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:50:00 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+../src/echo_transmitter_test.cpp: In function 'void argInit_32x1_real_T(double*)':
+../src/echo_transmitter_test.cpp:39:7: error: expected ';' before 'result'
+       result[idx0] = data_bits_ref[idx0];
+       ^~~~~~
+../src/echo_transmitter_test.cpp:39:41: warning: statement has no effect [-Wunused-value]
+       result[idx0] = data_bits_ref[idx0];
+                                         ^
+../src/echo_transmitter_test.cpp:28:6: warning: unused variable 'data_bits_ref' [-Wunused-variable]
+  int data_bits_ref[32] =
+      ^~~~~~~~~~~~~
+../src/echo_transmitter_test.cpp: At global scope:
+../src/echo_transmitter_test.cpp:45:15: warning: 'double argInit_real_T()' defined but not used [-Wunused-function]
+ static double argInit_real_T(void)
+               ^~~~~~~~~~~~~~
+make: *** [src/echo_transmitter_test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:50:32 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+../src/echo_transmitter_test.cpp: In function 'void argInit_32x1_real_T(double*)':
+../src/echo_transmitter_test.cpp:39:7: error: expected ';' before 'result'
+       result[idx0] = data_bits_ref[idx0];
+       ^~~~~~
+../src/echo_transmitter_test.cpp:39:41: warning: statement has no effect [-Wunused-value]
+       result[idx0] = data_bits_ref[idx0];
+                                         ^
+../src/echo_transmitter_test.cpp:28:6: warning: unused variable 'data_bits_ref' [-Wunused-variable]
+  int data_bits_ref[32] =
+      ^~~~~~~~~~~~~
+../src/echo_transmitter_test.cpp: At global scope:
+../src/echo_transmitter_test.cpp:23:15: warning: 'double argInit_real_T()' declared 'static' but never defined [-Wunused-function]
+ static double argInit_real_T(void);
+               ^~~~~~~~~~~~~~
+make: *** [src/echo_transmitter_test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:51:11 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+../src/echo_transmitter_test.cpp:23:15: warning: 'double argInit_real_T()' declared 'static' but never defined [-Wunused-function]
+ static double argInit_real_T(void);
+               ^~~~~~~~~~~~~~
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+15:51:21 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.
+15:53:34 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+../src/echo_transmitter_test.cpp:23:15: warning: 'double argInit_real_T()' declared 'static' but never defined [-Wunused-function]
+ static double argInit_real_T(void);
+               ^~~~~~~~~~~~~~
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+15:53:51 **** Incremental Build of configuration Debug for project echo_transmitter_test ****
+make all 
+Building file: ../src/echo_transmitter_test.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/echo_transmitter_test.d" -MT"src/echo_transmitter_test.o" -o "src/echo_transmitter_test.o" "../src/echo_transmitter_test.cpp"
+Finished building: ../src/echo_transmitter_test.cpp
+ 
+Building target: echo_transmitter_test.exe
+Invoking: Cygwin C++ Linker
+g++  -o "echo_transmitter_test.exe"  ./src/SystemCore.o ./src/dec2bin.o ./src/echo_transmitter.o ./src/echo_transmitter_data.o ./src/echo_transmitter_emxutil.o ./src/echo_transmitter_initialize.o ./src/echo_transmitter_terminate.o ./src/echo_transmitter_test.o ./src/multi_tone_fsk_modulator.o ./src/rtGetInf.o ./src/rtGetNaN.o ./src/rt_nonfinite.o   
+Finished building target: echo_transmitter_test.exe
+ 
+22:44:19 **** Build of configuration Debug for project echo_transmitter_test ****
+make all 
+make: Nothing to be done for `all'.

@@ -1,0 +1,19 @@
+21:37:48 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building file: ../src/test_echo_transmitter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_echo_transmitter.d" -MT"src/test_echo_transmitter.o" -o "src/test_echo_transmitter.o" "../src/test_echo_transmitter.cpp"
+../src/test_echo_transmitter.cpp: In function 'int main()':
+../src/test_echo_transmitter.cpp:13:6: warning: unused variable 'x' [-Wunused-variable]
+  int x;
+      ^
+Finished building: ../src/test_echo_transmitter.cpp
+ 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+
+21:37:49 Build Finished. 0 errors, 1 warnings. (took 871ms)
+

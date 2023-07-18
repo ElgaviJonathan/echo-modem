@@ -1,0 +1,4 @@
+# ignore the documentation folder
+documentation/
+# ignore the refrence papers folder
+papers/

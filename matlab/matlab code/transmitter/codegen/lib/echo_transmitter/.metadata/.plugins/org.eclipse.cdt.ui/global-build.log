@@ -1,0 +1,221 @@
+20:18:42 **** Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/Jonathan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/Jonathan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\MinGW\bin;C:\Users\Jonathan\AppData\Local\Streamlink\bin;C:\Users\Jonathan\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Jonathan\AppData\Local\Programs\Python\Python311;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1\bin;C:\Users\Jonathan\AppData\Local\Programs\Fiddler;C:\Users\Jonathan\AppData\Roaming\npm;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathan\radioconda\condabin;;C:\WINDOWS\system32]
+20:26:24 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/Jonathan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/Jonathan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\MinGW\bin;C:\Users\Jonathan\AppData\Local\Streamlink\bin;C:\Users\Jonathan\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Jonathan\AppData\Local\Programs\Python\Python311;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1\bin;C:\Users\Jonathan\AppData\Local\Programs\Fiddler;C:\Users\Jonathan\AppData\Roaming\npm;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathan\radioconda\condabin;;C:\WINDOWS\system32]
+20:59:18 **** Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\cygwin64\bin;C:/Users/Jonathan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/Jonathan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\MinGW\bin;C:\Users\Jonathan\AppData\Local\Streamlink\bin;C:\Users\Jonathan\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Jonathan\AppData\Local\Programs\Python\Python311;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1\bin;C:\Users\Jonathan\AppData\Local\Programs\Fiddler;C:\Users\Jonathan\AppData\Roaming\npm;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathan\radioconda\condabin;;C:\WINDOWS\system32]
+21:03:55 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\cygwin64\bin;C:/Users/Jonathan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/Jonathan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\MinGW\bin;C:\Users\Jonathan\AppData\Local\Streamlink\bin;C:\Users\Jonathan\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Jonathan\AppData\Local\Programs\Python\Python311;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1\bin;C:\Users\Jonathan\AppData\Local\Programs\Fiddler;C:\Users\Jonathan\AppData\Roaming\npm;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathan\radioconda\condabin;;C:\WINDOWS\system32]
+21:08:27 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\cygwin64\bin;C:/Users/Jonathan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/Jonathan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\MinGW\bin;C:\Users\Jonathan\AppData\Local\Streamlink\bin;C:\Users\Jonathan\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Jonathan\AppData\Local\Programs\Python\Python311;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1\bin;C:\Users\Jonathan\AppData\Local\Programs\Fiddler;C:\Users\Jonathan\AppData\Roaming\npm;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathan\radioconda\condabin;;C:\WINDOWS\system32]
+21:08:31 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\cygwin64\bin;C:/Users/Jonathan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/Jonathan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\MinGW\bin;C:\Users\Jonathan\AppData\Local\Streamlink\bin;C:\Users\Jonathan\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\Jonathan\AppData\Local\Programs\Python\Python311;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1\bin;C:\Users\Jonathan\AppData\Local\Programs\Fiddler;C:\Users\Jonathan\AppData\Roaming\npm;C:\Users\Jonathan\AppData\Local\Microsoft\WindowsApps;C:\Users\Jonathan\radioconda\condabin;;C:\WINDOWS\system32]
+21:10:51 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building file: ../src/test_echo_transmitter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_echo_transmitter.d" -MT"src/test_echo_transmitter.o" -o "src/test_echo_transmitter.o" "../src/test_echo_transmitter.cpp"
+Finished building: ../src/test_echo_transmitter.cpp
+ 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:10:57 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:11:16 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:11:22 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:11:23 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:11:25 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:11:27 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:19:58 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:20:05 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building file: ../src/test_echo_transmitter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_echo_transmitter.d" -MT"src/test_echo_transmitter.o" -o "src/test_echo_transmitter.o" "../src/test_echo_transmitter.cpp"
+Finished building: ../src/test_echo_transmitter.cpp
+ 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:21:52 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:22:13 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:28:21 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:28:47 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:28:50 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:29:04 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:29:11 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:31:35 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:32:12 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:36:30 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building file: ../src/test_echo_transmitter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_echo_transmitter.d" -MT"src/test_echo_transmitter.o" -o "src/test_echo_transmitter.o" "../src/test_echo_transmitter.cpp"
+Finished building: ../src/test_echo_transmitter.cpp
+ 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:36:42 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:36:57 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:37:33 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 
+21:37:48 **** Incremental Build of configuration Debug for project test_echo_transmitter ****
+make all 
+Building file: ../src/test_echo_transmitter.cpp
+Invoking: Cygwin C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/test_echo_transmitter.d" -MT"src/test_echo_transmitter.o" -o "src/test_echo_transmitter.o" "../src/test_echo_transmitter.cpp"
+../src/test_echo_transmitter.cpp: In function 'int main()':
+../src/test_echo_transmitter.cpp:13:6: warning: unused variable 'x' [-Wunused-variable]
+  int x;
+      ^
+Finished building: ../src/test_echo_transmitter.cpp
+ 
+Building target: test_echo_transmitter
+Invoking: Cygwin C++ Linker
+g++  -o "test_echo_transmitter"  ./src/test_echo_transmitter.o   
+Finished building target: test_echo_transmitter
+ 

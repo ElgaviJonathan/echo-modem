@@ -1,0 +1,3 @@
+sync_correlator_initialize.obj
+sync_correlator_terminate.obj
+sync_correlator.obj
