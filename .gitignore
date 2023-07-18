@@ -2,3 +2,7 @@
 documentation/
 # ignore the refrence papers folder
 papers/
+# ignore all wav files
+.wav
+# ignore all mat files
+.mat
