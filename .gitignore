@@ -3,6 +3,6 @@ documentation/
 # ignore the refrence papers folder
 papers/
 # ignore all wav files
-.wav
+*.wav
 # ignore all mat files
-.mat
+*.mat
